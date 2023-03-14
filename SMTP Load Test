@@ -1,7 +1,13 @@
-# Prompt the user for the sender's email address
-$from = Read-Host -Prompt "Enter the sender's email address"
+#SMTP Load Test
+#GNU AFFERO GENERAL PUBLIC LICENSE Version 3
+#
+#By Scorpion
 
-# Prompt the user for the remote server names or IPs, SMTP server IP, email subject, email body, and recipient's email addresses
+
+
+# Prompt the user for the sender's email address, remote server names or IPs, SMTP server IP, email subject, email body,
+# and recipient's email addresses
+$from = Read-Host -Prompt "Enter the sender's email address"
 $servers = Read-Host -Prompt "Enter the name or IP address of the remote servers separated by comma"
 $smtpServer = Read-Host -Prompt "Enter the IP address of the SMTP server"
 $subject = Read-Host -Prompt "Enter the subject of the email"
