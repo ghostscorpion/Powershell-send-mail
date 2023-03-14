@@ -1,6 +1,7 @@
 #SMTP Load Test
 #GNU AFFERO GENERAL PUBLIC LICENSE Version 3
 #
+#Version Number 0.01
 #By Scorpion
 
 
